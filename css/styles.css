@@ -10,6 +10,7 @@
     --footer-contact-color: rgba(255, 255, 255, 0.6);
     --page-border: #ECECEC;
     --item-border: #EEEEEE;
+    --icon-color: #AFB1B8;
 
 }
 
@@ -364,7 +365,7 @@ img {
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: var(--icon-color);
 }
 
 /* ПОСТІЙНІ КЛІЄНТИ */
@@ -387,7 +388,7 @@ img {
     display: flex;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icon-color);
     border-radius: 4px;
     align-items: center;
     justify-content: center;
@@ -396,7 +397,7 @@ img {
 .customers-icon {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;
+    fill: var(--icon-color);
 }
 
 .customers-item:hover svg,
