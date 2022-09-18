@@ -587,6 +587,7 @@ margin-bottom: 9px;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    color: var(--primary-text-color);
 
     margin-bottom: 4px;
 }
@@ -618,6 +619,7 @@ margin-bottom: 9px;
 
 .project-link {
     display: block;
+    text-decoration: none;
 }
 
 .project-link:hover,
